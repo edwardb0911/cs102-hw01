@@ -17,6 +17,14 @@ int main(int argc, char *argv[]){
 			float x = (atof(argv[2]) - atof(argv[3]));
 			printf("%f\n",  x);
 		}
+		if (argv[1][0] == 'x'){
+			float x = (atof(argv[2]) * atof(argv[3]));
+			printf("%f\n",  x);
+		}
+		if (argv[1][0] == '/'){
+			float x = (atof(argv[2]) / atof(argv[3]));
+			printf("%f\n",  x);
+		}
 	}
 
 
