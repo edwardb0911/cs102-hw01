@@ -10,22 +10,22 @@ int main(int argc, char *argv[]){
 	else{
 		if (argv[1][0] == '+'){
 			float x = (atof(argv[2]) + atof(argv[3]));
-			printf("%f\n",  x);
+			printf("%g\n",  x);
 			return 0;
 		}
 		if (argv[1][0] == '-'){
 			float x = (atof(argv[2]) - atof(argv[3]));
-			printf("%f\n",  x);
+			printf("%g\n",  x);
 			return 0;
 		}
 		if (argv[1][0] == 'x'){
 			float x = (atof(argv[2]) * atof(argv[3]));
-			printf("%f\n",  x);
+			printf("%g\n",  x);
 			return 0;
 		}
 		if (argv[1][0] == '/'){
 			float x = (atof(argv[2]) / atof(argv[3]));
-			printf("%f\n",  x);
+			printf("%g\n",  x);
 			return 0;
 		}
 	}
